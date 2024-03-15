@@ -1,11 +1,11 @@
 function firstWord(s) {
   // your code here
-	let first = ""; 
+	let first =" "; 
 	for(let i=0; i<s.length; i++){
-     
+    
 		if(s[i]==' '){
-         return first;
-			
+         return first;			
+			 
 		}
 		 first += s[i];
 	}
